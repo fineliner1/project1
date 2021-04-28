@@ -1,0 +1,15 @@
+'use strict';
+//alert('Hello');
+//const result = confirm('Are you here?');
+//console.log (result);
+//const answer = +prompt ('Do you have 20', '20');
+//console.log (answer + 10);
+const answers = [];
+answers[0] = prompt ('What is your name?', '');
+answers[1] = prompt ('What is your family?', '');
+answers[2] = prompt ('How old are you? ', '');
+//document.write (answers);
+console.log(typeof(answers));
+console.log (answers[2]);
+const name1 = answers[1];
+alert (`Hello, ${name1}`);
