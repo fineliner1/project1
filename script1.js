@@ -2,8 +2,8 @@
 //alert('Hello');
 //const result = confirm('Are you here?');
 //console.log (result);
-//const answer = +prompt ('Do you have 20', '20');
-//console.log (answer + 10);
+const answer = +prompt ('Do you have 20', '20');
+console.log (answer + 10);
 const answers = [];
 answers[0] = prompt ('What is your name?', '');
 answers[1] = prompt ('What is your family?', '');
