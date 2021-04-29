@@ -22,4 +22,4 @@ const isChecked = true,
 console.log(isChecked && isClose);
 console.log(isChecked || !isClose);
 console.log(1+1*5 !=7)
-jksdhfjdsjflksdjflkjsdlkf,mcnvxn;klvjfdslk;
+jksdhfjdsjflksdjflkjsdlkf,mcnvxn;klvjfdslk;cdf
