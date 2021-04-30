@@ -15,3 +15,4 @@ const personalMovieDB = {
  personalMovieDB.movies[c]=d;
 console.log (personalMovieDB);
 
+// const объект = { свойство описывающие объект,}

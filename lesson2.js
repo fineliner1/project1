@@ -21,4 +21,4 @@ const isChecked = true,
       isClose = false;
 console.log(isChecked && isClose);
 console.log(isChecked || !isClose);
-console.log(1+1*5 !=7)
+console.log(1+1*5 !=7);
