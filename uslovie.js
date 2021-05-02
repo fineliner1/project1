@@ -26,7 +26,7 @@ else if (num > 100) {
 // унарный аргумент
 +'4';
 //////////////////////////////////////////
-const num = 49;
+// const num = 50;
 switch (num) {
     case 49:
         console.log ('Wrong');
