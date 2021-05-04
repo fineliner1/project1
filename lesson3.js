@@ -13,32 +13,27 @@ const personalMovieDB = {
 //        d = prompt ('How much would you rate it?','') ;
 //  personalMovieDB.movies[a]=b;
 //  personalMovieDB.movies[c]=d;
- for (let i = 0; i < 2; i++) {
-    const a = prompt ('one of the last viewed films?' , ''),
-          b = prompt ('How much would you rate it?','');
-    // personalMovieDB.movies[a]=b
+for (let i = 0; i < 2; i++) {
+    const a = prompt('Один из последних просмотренных фильмов?', ''),
+          b = prompt('На сколько оцените его?', '');
+
     if (a != null && b != null && a != '' && b != '' && a.length < 50) {
-        personalMovieDB.movies[a]=b;
-        console.log ('Done');
+        personalMovieDB.movies[a] = b;
+        console.log('done');
     } else {
-        console.log ('Error');
+        console.log('error');
         i--;
     }
-if ( personalMovieDB.count < 10 ) {
-    console.log ('prosmotreno malo filmov');
-}
-else if (personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
-    console.log ('Vy klassicheskij zritel');
-}
-else if (personalMovieDB.count >= 30){
-    console.log('Vi kinoman');
-}
-else {
-    console.log('oshibka');
 }
 
-    
- }
-console.log (personalMovieDB);
+if (personalMovieDB.count < 10) {
+    console.log("Просмотрено довольно мало фильмов");
+} else if (personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
+    console.log("Вы классический зритель");
+} else if (personalMovieDB.count >= 30) {
+    console.log("Вы киноман");
+} else {
+    console.log("Произошла ошибка");
+}
 
-// const объект = { свойство описывающие объект,}
+console.log(personalMovieDB);
